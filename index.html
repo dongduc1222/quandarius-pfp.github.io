@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/javascript.js">
     <link rel="stylesheet" href="script/sildeshow.js">
+    <link rel="stylesheet" href="style2.css">
+    
     <title>Document</title>
 </head>
 <body>
@@ -533,100 +535,75 @@
             </div>
             
           </div>
-          <div class="main-list-menu-spam">
-            <div class="grid3">
-              <div class="main-list-menu-spam-left">
-                <p class="main-list-menu-spam-list-title">Phân Loại sản phẩm</p>
-             <ul class="main-list-menu-spam-list">
+          <div class="grid5">
+          <div class="main2">
+            <div class="left">
+            <div id="myBtnContainer">
+              <div class="btn active" onclick="filterSelection('all')"> Tất cả sản phẩm</div>
+              <div class="btn btn-has-dropdown" onclick="filterSelection('laptop')"> Laptop
+                <div class="main-list-menu-spam-list-item-dropdown">
+                    <div class=" btn main-list-menu-spam-list-item-dropdown-link " >MSI</div>
+                    <div  class="main-list-menu-spam-list-item-dropdown-link">DELL</div>
+                    <div  class="main-list-menu-spam-list-item-dropdown-link">MACBOOK</div>
+                    
+                 </div>
+            </div>
+              <div class="btn" onclick="filterSelection('pc')"> Play-Computer</div>
+              <div class="btn" onclick="filterSelection('phone')"> Smart-phone</div>
+              <div class="btn" onclick="filterSelection('keyboard')"> Key-board</div>
+              <div class="btn" onclick="filterSelection('mouse')"> Gaimg-gear</div>
+              <div class="btn" onclick="filterSelection('head')"> Tai Nghe</div>
+              <div class="btn" onclick="filterSelection('phukien')"> Phụ Kiện</div>
+            </div>
+            </div>
+            <div class="right">
+            <div class="container2">
               
-              <li class="main-list-menu-spam-list-item">
-                <a href="#" class="main-list-menu-spam-list-link">Laptop</a>
-                <div class="main-list-menu-spam-list-item-dropdown">
-                   <a href="#" class="main-list-menu-spam-list-item-dropdown-link">Laptop Gaming</a>
-                   <a href="#" class="main-list-menu-spam-list-item-dropdown-link">Laptop Gaming</a>
-                   <a href="#" class="main-list-menu-spam-list-item-dropdown-link">Laptop Gaming</a>
-                   
-                </div>
-              </li>
-              <li class="main-list-menu-spam-list-item">
-                <a href="#" class="main-list-menu-spam-list-link">Gaming-KeyBoard</a>
-                <div class="main-list-menu-spam-list-item-dropdown">
-                  <a href="#" class="main-list-menu-spam-list-item-dropdown-link">Edra</a>
-                  <a href="#" class="main-list-menu-spam-list-item-dropdown-link">LogiTech</a>
-                  <a href="#" class="main-list-menu-spam-list-item-dropdown-link">E-Blue</a>
-                  
-               </div>
-              </li>
-              <li class="main-list-menu-spam-list-item">
-                <a href="#" class="main-list-menu-spam-list-link">Gaming-mouse</a>
-                <div class="main-list-menu-spam-list-item-dropdown">
-                  <a href="#" class="main-list-menu-spam-list-item-dropdown-link">Edra</a>
-                  <a href="#" class="main-list-menu-spam-list-item-dropdown-link">LogiTech</a>
-                  <a href="#" class="main-list-menu-spam-list-item-dropdown-link">E-Blue</a>
-                  
-               </div>
-              </li>
-              <li class="main-list-menu-spam-list-item">
-                <a href="#" class="main-list-menu-spam-list-link">PC</a>
-                <div class="main-list-menu-spam-list-item-dropdown">
-                  <a href="#" class="main-list-menu-spam-list-item-dropdown-link">Edra</a>
-                  <a href="#" class="main-list-menu-spam-list-item-dropdown-link">LogiTech</a>
-                  <a href="#" class="main-list-menu-spam-list-item-dropdown-link">E-Blue</a>
-                  
-               </div>
-              </li>
-              <li class="main-list-menu-spam-list-item">
-                <a href="#" class="main-list-menu-spam-list-link">Ghế Gaming</a>
-                <div class="main-list-menu-spam-list-item-dropdown">
-                  <a href="#" class="main-list-menu-spam-list-item-dropdown-link">Edra</a>
-                  <a href="#" class="main-list-menu-spam-list-item-dropdown-link">LogiTech</a>
-                  <a href="#" class="main-list-menu-spam-list-item-dropdown-link">E-Blue</a>
-                  
-               </div>
-              </li>
-              <li class="main-list-menu-spam-list-item">
-                <a href="#" class="main-list-menu-spam-list-link">Tai Nghe Gaming</a>
-                <div class="main-list-menu-spam-list-item-dropdown">
-                  <a href="#" class="main-list-menu-spam-list-item-dropdown-link">Edra</a>
-                  <a href="#" class="main-list-menu-spam-list-item-dropdown-link">LogiTech</a>
-                  <a href="#" class="main-list-menu-spam-list-item-dropdown-link">E-Blue</a>
-                  
-               </div>
-              </li>
-              <li class="main-list-menu-spam-list-item">
-                <a href="#" class="main-list-menu-spam-list-link">Màn Hình Laptop</a>
-                <div class="main-list-menu-spam-list-item-dropdown">
-                  <a href="#" class="main-list-menu-spam-list-item-dropdown-link">Edra</a>
-                  <a href="#" class="main-list-menu-spam-list-item-dropdown-link">LogiTech</a>
-                  <a href="#" class="main-list-menu-spam-list-item-dropdown-link">E-Blue</a>
-                  
-               </div>
-              </li>
-              <li class="main-list-menu-spam-list-item">
-                <a href="#" class="main-list-menu-spam-list-link">Phụ Kiện</a>
-                <div class="main-list-menu-spam-list-item-dropdown">
-                  <a href="#" class="main-list-menu-spam-list-item-dropdown-link">Edra</a>
-                  <a href="#" class="main-list-menu-spam-list-item-dropdown-link">LogiTech</a>
-                  <a href="#" class="main-list-menu-spam-list-item-dropdown-link">E-Blue</a>
-                  <a href="#" class="main-list-menu-spam-list-item-dropdown-link">E-Blue</a>
-                  <a href="#" class="main-list-menu-spam-list-item-dropdown-link">E-Blue</a>
-                  <a href="#" class="main-list-menu-spam-list-item-dropdown-link">E-Blue</a>
-               </div>
-              </li>
+                <li class="main-list-menu-spam-rightcacspam-item filterDiv phone ">
+                       
+                    <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
+                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
+                    </div>
+                    <div class="like-content">
+                      <div class="like-content-content">
+                        Quan Tâm
+                      </div>
+                    </div>
+                    <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
+                      <img src="./assets/img/sale-spam.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
+                      <div class="main-list-menu-spam-right-content">Điện thoại Xiaomi Redmi K40 Pro 5G 8/128GB - Hàng nhập khẩu</div>
+                      <div class="main-list-menu-spam-rightcacspam-item-price">
+                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">15.000.000đ</div>
+                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">10.000.000đ</div>
+                      </div>
+                      <div class="main-list-menu-spam-rightcacspam-item-tym">
+                        <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
+                          <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="main-list-menu-spam-rightcacspam-item-tym-star">
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          
+                        </div>
+    
+                      </div>
+                      <div class="main-list-menu-spam-rightcacspam-item-footer">
+                        <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
+                        <div class="main-list-menu-spam-rightcacspam-item-footer-where"><i class="fas fa-map-marker-alt"></i> IT-suppoter</div>
+                      </div>
+                      <div class="main-list-menu-spam-rightcacspam-item-end-topic">
+                        <div class="main-list-menu-spam-rightcacspam-item-end-topic-content">Tìm sản phẩm tương tự </div>
+                      </div>
+                    </a>
+                  </li>
               
-
-            </ul>
-          </div>
-          <div class="main-list-menu-spam-right">
-            <h1 class="main-list-menu-spam-right-title">
-              Tất cả các sản phẩm
-            </h1>
-            <div class="main-list-menu-spam-right-addeveryting">
-            <ul class="main-list-menu-spam-rightcacspam">
-                  <li class="main-list-menu-spam-rightcacspam-item">
-                   
+                  <li class="main-list-menu-spam-rightcacspam-item filterDiv laptop">
+                       
                     <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
-                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
+                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 15%</p>
                     </div>
                     <div class="like-content">
                       <div class="like-content-content">
@@ -634,11 +611,11 @@
                       </div>
                     </div>
                     <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
-                      <img src="./assets/img/sale-spam.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
-                      <div class="main-list-menu-spam-right-content">Điện thoại Xiaomi Redmi K40 Pro 5G 8/128GB - Hàng nhập khẩu</div>
+                      <img src="./assets/img/macbook.png" alt="" class="main-list-menu-spam-rightcacspam-item-img">
+                      <div class="main-list-menu-spam-right-content">Apple MacBook Pro (2020) M1 Chip, 13 inch, 8GB, 256GB SSD</div>
                       <div class="main-list-menu-spam-rightcacspam-item-price">
-                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">15.000.000đ</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">10.000.000đ</div>
+                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">36.990.000đ</div>
+                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">31.490.000đ</div>
                       </div>
                       <div class="main-list-menu-spam-rightcacspam-item-tym">
                         <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
@@ -649,10 +626,10 @@
                           <span class="fa fa-star checked"></span>
                           <span class="fa fa-star checked"></span>
                           <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star "></span>
                           
                         </div>
-
+    
                       </div>
                       <div class="main-list-menu-spam-rightcacspam-item-footer">
                         <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
@@ -663,8 +640,203 @@
                       </div>
                     </a>
                   </li>
-                  <li class="main-list-menu-spam-rightcacspam-item">
-                   
+                  <li class="main-list-menu-spam-rightcacspam-item filterDiv pc">
+                       
+                    <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
+                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
+                    </div>
+                    <div class="like-content">
+                      <div class="like-content-content">
+                        Quan Tâm
+                      </div>
+                    </div>
+                    <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
+                      <img src="./assets/img/pc.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
+                      <div class="main-list-menu-spam-right-content">Máy tính Dell Optiplex 3010 Core i5/ i3hiệu năng cao cho văn phòng</div>
+                      <div class="main-list-menu-spam-rightcacspam-item-price">
+                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">3.800.000đ</div>
+                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">3.200.000đ</div>
+                      </div>
+                      <div class="main-list-menu-spam-rightcacspam-item-tym">
+                        <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
+                          <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="main-list-menu-spam-rightcacspam-item-tym-star">
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          
+                        </div>
+    
+                      </div>
+                      <div class="main-list-menu-spam-rightcacspam-item-footer">
+                        <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
+                        <div class="main-list-menu-spam-rightcacspam-item-footer-where"><i class="fas fa-map-marker-alt"></i> IT-suppoter</div>
+                      </div>
+                      <div class="main-list-menu-spam-rightcacspam-item-end-topic">
+                        <div class="main-list-menu-spam-rightcacspam-item-end-topic-content">Tìm sản phẩm tương tự </div>
+                      </div>
+                    </a>
+                  </li><li class="main-list-menu-spam-rightcacspam-item filterDiv keyboard">
+                       
+                    <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
+                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
+                    </div>
+                    <div class="like-content">
+                      <div class="like-content-content">
+                        Quan Tâm
+                      </div>
+                    </div>
+                    <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
+                      <img src="./assets/img/banphimco.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
+                      <div class="main-list-menu-spam-right-content">[Hàng Chính Hãng] Bàn Phím Cơ Logitech G910 Orion Spectrum RGB</div>
+                      <div class="main-list-menu-spam-rightcacspam-item-price">
+                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">1.750.000đ</div>
+                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">1.700.000đ</div>
+                      </div>
+                      <div class="main-list-menu-spam-rightcacspam-item-tym">
+                        <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
+                          <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="main-list-menu-spam-rightcacspam-item-tym-star">
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          
+                        </div>
+    
+                      </div>
+                      <div class="main-list-menu-spam-rightcacspam-item-footer">
+                        <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
+                        <div class="main-list-menu-spam-rightcacspam-item-footer-where"><i class="fas fa-map-marker-alt"></i> IT-suppoter</div>
+                      </div>
+                      <div class="main-list-menu-spam-rightcacspam-item-end-topic">
+                        <div class="main-list-menu-spam-rightcacspam-item-end-topic-content">Tìm sản phẩm tương tự </div>
+                      </div>
+                    </a>
+                  </li><li class="main-list-menu-spam-rightcacspam-item filterDiv mouse">
+                       
+                    <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
+                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
+                    </div>
+                    <div class="like-content">
+                      <div class="like-content-content">
+                        Quan Tâm
+                      </div>
+                    </div>
+                    <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
+                      <img src="./assets/img/mouse.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
+                      <div class="main-list-menu-spam-right-content">Chuột game chuyên nghiệp WFIRST 6D cao cấp Marvo Led RGB đổi màu</div>
+                      <div class="main-list-menu-spam-rightcacspam-item-price">
+                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">650.000đ</div>
+                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">459.000đ</div>
+                      </div>
+                      <div class="main-list-menu-spam-rightcacspam-item-tym">
+                        <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
+                          <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="main-list-menu-spam-rightcacspam-item-tym-star">
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          
+                        </div>
+    
+                      </div>
+                      <div class="main-list-menu-spam-rightcacspam-item-footer">
+                        <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
+                        <div class="main-list-menu-spam-rightcacspam-item-footer-where"><i class="fas fa-map-marker-alt"></i> IT-suppoter</div>
+                      </div>
+                      <div class="main-list-menu-spam-rightcacspam-item-end-topic">
+                        <div class="main-list-menu-spam-rightcacspam-item-end-topic-content">Tìm sản phẩm tương tự </div>
+                      </div>
+                    </a>
+                  </li><li class="main-list-menu-spam-rightcacspam-item filterDiv head  ">
+                       
+                    <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
+                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
+                    </div>
+                    <div class="like-content">
+                      <div class="like-content-content">
+                        Quan Tâm
+                      </div>
+                    </div>
+                    <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
+                      <img src="./assets/img/tainghe.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
+                      <div class="main-list-menu-spam-right-content"> Tai nghe gaming chụp tai (Headphone Gaming) KOTION EACH G2000 </div>
+                      <div class="main-list-menu-spam-rightcacspam-item-price">
+                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">520.000 đ</div>
+                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">359.000đ</div>
+                      </div>
+                      <div class="main-list-menu-spam-rightcacspam-item-tym">
+                        <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
+                          <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="main-list-menu-spam-rightcacspam-item-tym-star">
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          
+                        </div>
+    
+                      </div>
+                      <div class="main-list-menu-spam-rightcacspam-item-footer">
+                        <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
+                        <div class="main-list-menu-spam-rightcacspam-item-footer-where"><i class="fas fa-map-marker-alt"></i> IT-suppoter</div>
+                      </div>
+                      <div class="main-list-menu-spam-rightcacspam-item-end-topic">
+                        <div class="main-list-menu-spam-rightcacspam-item-end-topic-content">Tìm sản phẩm tương tự </div>
+                      </div>
+                    </a>
+                  </li><li class="main-list-menu-spam-rightcacspam-item filterDiv phukien">
+                       
+                    <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
+                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
+                    </div>
+                    <div class="like-content">
+                      <div class="like-content-content">
+                        Quan Tâm
+                      </div>
+                    </div>
+                    <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
+                      <img src="./assets/img/tản nhiệt.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
+                      <div class="main-list-menu-spam-right-content">Tản nhiệt nước VGA ID-Cooling ICEFLOW 240 VGA ARGB</div>
+                      <div class="main-list-menu-spam-rightcacspam-item-price">
+                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">3.000.000đ</div>
+                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">2.490.000đ</div>
+                      </div>
+                      <div class="main-list-menu-spam-rightcacspam-item-tym">
+                        <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
+                          <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="main-list-menu-spam-rightcacspam-item-tym-star">
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          
+                        </div>
+    
+                      </div>
+                      <div class="main-list-menu-spam-rightcacspam-item-footer">
+                        <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
+                        <div class="main-list-menu-spam-rightcacspam-item-footer-where"><i class="fas fa-map-marker-alt"></i> IT-suppoter</div>
+                      </div>
+                      <div class="main-list-menu-spam-rightcacspam-item-end-topic">
+                        <div class="main-list-menu-spam-rightcacspam-item-end-topic-content">Tìm sản phẩm tương tự </div>
+                      </div>
+                    </a>
+                  </li><li class="main-list-menu-spam-rightcacspam-item filterDiv cars">
+                       
                     <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
                       <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
                     </div>
@@ -692,7 +864,46 @@
                           <span class="fa fa-star checked"></span>
                           
                         </div>
-
+    
+                      </div>
+                      <div class="main-list-menu-spam-rightcacspam-item-footer">
+                        <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
+                        <div class="main-list-menu-spam-rightcacspam-item-footer-where"><i class="fas fa-map-marker-alt"></i> IT-suppoter</div>
+                      </div>
+                      <div class="main-list-menu-spam-rightcacspam-item-end-topic">
+                        <div class="main-list-menu-spam-rightcacspam-item-end-topic-content">Tìm sản phẩm tương tự </div>
+                      </div>
+                    </a>
+                  </li><li class="main-list-menu-spam-rightcacspam-item filterDiv cars">
+                       
+                    <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
+                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
+                    </div>
+                    <div class="like-content">
+                      <div class="like-content-content">
+                        Quan Tâm
+                      </div>
+                    </div>
+                    <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
+                      <img src="./assets/img/sale-spam.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
+                      <div class="main-list-menu-spam-right-content">Điện thoại Xiaomi Redmi K40 Pro 5G 8/128GB - Hàng nhập khẩu</div>
+                      <div class="main-list-menu-spam-rightcacspam-item-price">
+                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">15.000.000đ</div>
+                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">10.000.000đ</div>
+                      </div>
+                      <div class="main-list-menu-spam-rightcacspam-item-tym">
+                        <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
+                          <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="main-list-menu-spam-rightcacspam-item-tym-star">
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          
+                        </div>
+    
                       </div>
                       <div class="main-list-menu-spam-rightcacspam-item-footer">
                         <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
@@ -703,8 +914,8 @@
                       </div>
                     </a>
                   </li>
-                  <li class="main-list-menu-spam-rightcacspam-item">
-                   
+                  <li class="main-list-menu-spam-rightcacspam-item filterDiv cars">
+                       
                     <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
                       <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
                     </div>
@@ -732,7 +943,7 @@
                           <span class="fa fa-star checked"></span>
                           
                         </div>
-
+    
                       </div>
                       <div class="main-list-menu-spam-rightcacspam-item-footer">
                         <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
@@ -743,8 +954,8 @@
                       </div>
                     </a>
                   </li>
-                  <li class="main-list-menu-spam-rightcacspam-item">
-                   
+                  <li class="main-list-menu-spam-rightcacspam-item filterDiv cars">
+                       
                     <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
                       <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
                     </div>
@@ -772,7 +983,7 @@
                           <span class="fa fa-star checked"></span>
                           
                         </div>
-
+    
                       </div>
                       <div class="main-list-menu-spam-rightcacspam-item-footer">
                         <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
@@ -783,8 +994,8 @@
                       </div>
                     </a>
                   </li>
-                  <li class="main-list-menu-spam-rightcacspam-item">
-                   
+                  <li class="main-list-menu-spam-rightcacspam-item filterDiv cars">
+                       
                     <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
                       <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
                     </div>
@@ -812,7 +1023,7 @@
                           <span class="fa fa-star checked"></span>
                           
                         </div>
-
+    
                       </div>
                       <div class="main-list-menu-spam-rightcacspam-item-footer">
                         <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
@@ -823,8 +1034,8 @@
                       </div>
                     </a>
                   </li>
-                  <li class="main-list-menu-spam-rightcacspam-item">
-                   
+                  <li class="main-list-menu-spam-rightcacspam-item filterDiv cars">
+                       
                     <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
                       <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
                     </div>
@@ -852,7 +1063,7 @@
                           <span class="fa fa-star checked"></span>
                           
                         </div>
-
+    
                       </div>
                       <div class="main-list-menu-spam-rightcacspam-item-footer">
                         <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
@@ -863,8 +1074,8 @@
                       </div>
                     </a>
                   </li>
-                  <li class="main-list-menu-spam-rightcacspam-item">
-                   
+                  <li class="main-list-menu-spam-rightcacspam-item filterDiv cars">
+                       
                     <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
                       <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
                     </div>
@@ -892,46 +1103,7 @@
                           <span class="fa fa-star checked"></span>
                           
                         </div>
-
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-footer">
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-where"><i class="fas fa-map-marker-alt"></i> IT-suppoter</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-end-topic">
-                        <div class="main-list-menu-spam-rightcacspam-item-end-topic-content">Tìm sản phẩm tương tự </div>
-                      </div>
-                    </a>
-                  </li><li class="main-list-menu-spam-rightcacspam-item">
-                   
-                    <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
-                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
-                    </div>
-                    <div class="like-content">
-                      <div class="like-content-content">
-                        Quan Tâm
-                      </div>
-                    </div>
-                    <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
-                      <img src="./assets/img/sale-spam.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
-                      <div class="main-list-menu-spam-right-content">Điện thoại Xiaomi Redmi K40 Pro 5G 8/128GB - Hàng nhập khẩu</div>
-                      <div class="main-list-menu-spam-rightcacspam-item-price">
-                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">15.000.000đ</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">10.000.000đ</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-tym">
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
-                          <i class="fas fa-heart"></i>
-                        </div>
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          
-                        </div>
-
+    
                       </div>
                       <div class="main-list-menu-spam-rightcacspam-item-footer">
                         <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
@@ -942,8 +1114,8 @@
                       </div>
                     </a>
                   </li>
-                  <li class="main-list-menu-spam-rightcacspam-item">
-                   
+                  <li class="main-list-menu-spam-rightcacspam-item filterDiv colors">
+                       
                     <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
                       <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
                     </div>
@@ -971,7 +1143,7 @@
                           <span class="fa fa-star checked"></span>
                           
                         </div>
-
+    
                       </div>
                       <div class="main-list-menu-spam-rightcacspam-item-footer">
                         <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
@@ -982,1076 +1154,61 @@
                       </div>
                     </a>
                   </li>
-                  <li class="main-list-menu-spam-rightcacspam-item">
-                   
-                    <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
-                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
-                    </div>
-                    <div class="like-content">
-                      <div class="like-content-content">
-                        Quan Tâm
-                      </div>
-                    </div>
-                    <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
-                      <img src="./assets/img/sale-spam.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
-                      <div class="main-list-menu-spam-right-content">Điện thoại Xiaomi Redmi K40 Pro 5G 8/128GB - Hàng nhập khẩu</div>
-                      <div class="main-list-menu-spam-rightcacspam-item-price">
-                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">15.000.000đ</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">10.000.000đ</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-tym">
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
-                          <i class="fas fa-heart"></i>
-                        </div>
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          
-                        </div>
-
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-footer">
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-where"><i class="fas fa-map-marker-alt"></i> IT-suppoter</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-end-topic">
-                        <div class="main-list-menu-spam-rightcacspam-item-end-topic-content">Tìm sản phẩm tương tự </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="main-list-menu-spam-rightcacspam-item">
-                   
-                    <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
-                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
-                    </div>
-                    <div class="like-content">
-                      <div class="like-content-content">
-                        Quan Tâm
-                      </div>
-                    </div>
-                    <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
-                      <img src="./assets/img/sale-spam.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
-                      <div class="main-list-menu-spam-right-content">Điện thoại Xiaomi Redmi K40 Pro 5G 8/128GB - Hàng nhập khẩu</div>
-                      <div class="main-list-menu-spam-rightcacspam-item-price">
-                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">15.000.000đ</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">10.000.000đ</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-tym">
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
-                          <i class="fas fa-heart"></i>
-                        </div>
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          
-                        </div>
-
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-footer">
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-where"><i class="fas fa-map-marker-alt"></i> IT-suppoter</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-end-topic">
-                        <div class="main-list-menu-spam-rightcacspam-item-end-topic-content">Tìm sản phẩm tương tự </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="main-list-menu-spam-rightcacspam-item">
-                   
-                    <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
-                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
-                    </div>
-                    <div class="like-content">
-                      <div class="like-content-content">
-                        Quan Tâm
-                      </div>
-                    </div>
-                    <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
-                      <img src="./assets/img/sale-spam.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
-                      <div class="main-list-menu-spam-right-content">Điện thoại Xiaomi Redmi K40 Pro 5G 8/128GB - Hàng nhập khẩu</div>
-                      <div class="main-list-menu-spam-rightcacspam-item-price">
-                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">15.000.000đ</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">10.000.000đ</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-tym">
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
-                          <i class="fas fa-heart"></i>
-                        </div>
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          
-                        </div>
-
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-footer">
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-where"><i class="fas fa-map-marker-alt"></i> IT-suppoter</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-end-topic">
-                        <div class="main-list-menu-spam-rightcacspam-item-end-topic-content">Tìm sản phẩm tương tự </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="main-list-menu-spam-rightcacspam-item">
-                   
-                    <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
-                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
-                    </div>
-                    <div class="like-content">
-                      <div class="like-content-content">
-                        Quan Tâm
-                      </div>
-                    </div>
-                    <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
-                      <img src="./assets/img/sale-spam.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
-                      <div class="main-list-menu-spam-right-content">Điện thoại Xiaomi Redmi K40 Pro 5G 8/128GB - Hàng nhập khẩu</div>
-                      <div class="main-list-menu-spam-rightcacspam-item-price">
-                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">15.000.000đ</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">10.000.000đ</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-tym">
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
-                          <i class="fas fa-heart"></i>
-                        </div>
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          
-                        </div>
-
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-footer">
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-where"><i class="fas fa-map-marker-alt"></i> IT-suppoter</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-end-topic">
-                        <div class="main-list-menu-spam-rightcacspam-item-end-topic-content">Tìm sản phẩm tương tự </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="main-list-menu-spam-rightcacspam-item">
-                   
-                    <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
-                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
-                    </div>
-                    <div class="like-content">
-                      <div class="like-content-content">
-                        Quan Tâm
-                      </div>
-                    </div>
-                    <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
-                      <img src="./assets/img/sale-spam.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
-                      <div class="main-list-menu-spam-right-content">Điện thoại Xiaomi Redmi K40 Pro 5G 8/128GB - Hàng nhập khẩu</div>
-                      <div class="main-list-menu-spam-rightcacspam-item-price">
-                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">15.000.000đ</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">10.000.000đ</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-tym">
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
-                          <i class="fas fa-heart"></i>
-                        </div>
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          
-                        </div>
-
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-footer">
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-where"><i class="fas fa-map-marker-alt"></i> IT-suppoter</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-end-topic">
-                        <div class="main-list-menu-spam-rightcacspam-item-end-topic-content">Tìm sản phẩm tương tự </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="main-list-menu-spam-rightcacspam-item">
-                   
-                    <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
-                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
-                    </div>
-                    <div class="like-content">
-                      <div class="like-content-content">
-                        Quan Tâm
-                      </div>
-                    </div>
-                    <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
-                      <img src="./assets/img/sale-spam.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
-                      <div class="main-list-menu-spam-right-content">Điện thoại Xiaomi Redmi K40 Pro 5G 8/128GB - Hàng nhập khẩu</div>
-                      <div class="main-list-menu-spam-rightcacspam-item-price">
-                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">15.000.000đ</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">10.000.000đ</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-tym">
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
-                          <i class="fas fa-heart"></i>
-                        </div>
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          
-                        </div>
-
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-footer">
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-where"><i class="fas fa-map-marker-alt"></i> IT-suppoter</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-end-topic">
-                        <div class="main-list-menu-spam-rightcacspam-item-end-topic-content">Tìm sản phẩm tương tự </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="main-list-menu-spam-rightcacspam-item">
-                   
-                    <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
-                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
-                    </div>
-                    <div class="like-content">
-                      <div class="like-content-content">
-                        Quan Tâm
-                      </div>
-                    </div>
-                    <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
-                      <img src="./assets/img/sale-spam.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
-                      <div class="main-list-menu-spam-right-content">Điện thoại Xiaomi Redmi K40 Pro 5G 8/128GB - Hàng nhập khẩu</div>
-                      <div class="main-list-menu-spam-rightcacspam-item-price">
-                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">15.000.000đ</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">10.000.000đ</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-tym">
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
-                          <i class="fas fa-heart"></i>
-                        </div>
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          
-                        </div>
-
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-footer">
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-where"><i class="fas fa-map-marker-alt"></i> IT-suppoter</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-end-topic">
-                        <div class="main-list-menu-spam-rightcacspam-item-end-topic-content">Tìm sản phẩm tương tự </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="main-list-menu-spam-rightcacspam-item">
-                   
-                    <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
-                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
-                    </div>
-                    <div class="like-content">
-                      <div class="like-content-content">
-                        Quan Tâm
-                      </div>
-                    </div>
-                    <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
-                      <img src="./assets/img/sale-spam.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
-                      <div class="main-list-menu-spam-right-content">Điện thoại Xiaomi Redmi K40 Pro 5G 8/128GB - Hàng nhập khẩu</div>
-                      <div class="main-list-menu-spam-rightcacspam-item-price">
-                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">15.000.000đ</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">10.000.000đ</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-tym">
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
-                          <i class="fas fa-heart"></i>
-                        </div>
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          
-                        </div>
-
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-footer">
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-where"><i class="fas fa-map-marker-alt"></i> IT-suppoter</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-end-topic">
-                        <div class="main-list-menu-spam-rightcacspam-item-end-topic-content">Tìm sản phẩm tương tự </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="main-list-menu-spam-rightcacspam-item">
-                   
-                    <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
-                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
-                    </div>
-                    <div class="like-content">
-                      <div class="like-content-content">
-                        Quan Tâm
-                      </div>
-                    </div>
-                    <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
-                      <img src="./assets/img/sale-spam.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
-                      <div class="main-list-menu-spam-right-content">Điện thoại Xiaomi Redmi K40 Pro 5G 8/128GB - Hàng nhập khẩu</div>
-                      <div class="main-list-menu-spam-rightcacspam-item-price">
-                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">15.000.000đ</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">10.000.000đ</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-tym">
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
-                          <i class="fas fa-heart"></i>
-                        </div>
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          
-                        </div>
-
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-footer">
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-where"><i class="fas fa-map-marker-alt"></i> IT-suppoter</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-end-topic">
-                        <div class="main-list-menu-spam-rightcacspam-item-end-topic-content">Tìm sản phẩm tương tự </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="main-list-menu-spam-rightcacspam-item">
-                   
-                    <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
-                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
-                    </div>
-                    <div class="like-content">
-                      <div class="like-content-content">
-                        Quan Tâm
-                      </div>
-                    </div>
-                    <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
-                      <img src="./assets/img/sale-spam.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
-                      <div class="main-list-menu-spam-right-content">Điện thoại Xiaomi Redmi K40 Pro 5G 8/128GB - Hàng nhập khẩu</div>
-                      <div class="main-list-menu-spam-rightcacspam-item-price">
-                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">15.000.000đ</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">10.000.000đ</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-tym">
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
-                          <i class="fas fa-heart"></i>
-                        </div>
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          
-                        </div>
-
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-footer">
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-where"><i class="fas fa-map-marker-alt"></i> IT-suppoter</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-end-topic">
-                        <div class="main-list-menu-spam-rightcacspam-item-end-topic-content">Tìm sản phẩm tương tự </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="main-list-menu-spam-rightcacspam-item">
-                   
-                    <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
-                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
-                    </div>
-                    <div class="like-content">
-                      <div class="like-content-content">
-                        Quan Tâm
-                      </div>
-                    </div>
-                    <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
-                      <img src="./assets/img/sale-spam.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
-                      <div class="main-list-menu-spam-right-content">Điện thoại Xiaomi Redmi K40 Pro 5G 8/128GB - Hàng nhập khẩu</div>
-                      <div class="main-list-menu-spam-rightcacspam-item-price">
-                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">15.000.000đ</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">10.000.000đ</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-tym">
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
-                          <i class="fas fa-heart"></i>
-                        </div>
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          
-                        </div>
-
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-footer">
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-where"><i class="fas fa-map-marker-alt"></i> IT-suppoter</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-end-topic">
-                        <div class="main-list-menu-spam-rightcacspam-item-end-topic-content">Tìm sản phẩm tương tự </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="main-list-menu-spam-rightcacspam-item">
-                   
-                    <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
-                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
-                    </div>
-                    <div class="like-content">
-                      <div class="like-content-content">
-                        Quan Tâm
-                      </div>
-                    </div>
-                    <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
-                      <img src="./assets/img/sale-spam.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
-                      <div class="main-list-menu-spam-right-content">Điện thoại Xiaomi Redmi K40 Pro 5G 8/128GB - Hàng nhập khẩu</div>
-                      <div class="main-list-menu-spam-rightcacspam-item-price">
-                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">15.000.000đ</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">10.000.000đ</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-tym">
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
-                          <i class="fas fa-heart"></i>
-                        </div>
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          
-                        </div>
-
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-footer">
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-where"><i class="fas fa-map-marker-alt"></i> IT-suppoter</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-end-topic">
-                        <div class="main-list-menu-spam-rightcacspam-item-end-topic-content">Tìm sản phẩm tương tự </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="main-list-menu-spam-rightcacspam-item">
-                   
-                    <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
-                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
-                    </div>
-                    <div class="like-content">
-                      <div class="like-content-content">
-                        Quan Tâm
-                      </div>
-                    </div>
-                    <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
-                      <img src="./assets/img/sale-spam.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
-                      <div class="main-list-menu-spam-right-content">Điện thoại Xiaomi Redmi K40 Pro 5G 8/128GB - Hàng nhập khẩu</div>
-                      <div class="main-list-menu-spam-rightcacspam-item-price">
-                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">15.000.000đ</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">10.000.000đ</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-tym">
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
-                          <i class="fas fa-heart"></i>
-                        </div>
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          
-                        </div>
-
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-footer">
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-where"><i class="fas fa-map-marker-alt"></i> IT-suppoter</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-end-topic">
-                        <div class="main-list-menu-spam-rightcacspam-item-end-topic-content">Tìm sản phẩm tương tự </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="main-list-menu-spam-rightcacspam-item">
-                   
-                    <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
-                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
-                    </div>
-                    <div class="like-content">
-                      <div class="like-content-content">
-                        Quan Tâm
-                      </div>
-                    </div>
-                    <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
-                      <img src="./assets/img/sale-spam.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
-                      <div class="main-list-menu-spam-right-content">Điện thoại Xiaomi Redmi K40 Pro 5G 8/128GB - Hàng nhập khẩu</div>
-                      <div class="main-list-menu-spam-rightcacspam-item-price">
-                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">15.000.000đ</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">10.000.000đ</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-tym">
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
-                          <i class="fas fa-heart"></i>
-                        </div>
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          
-                        </div>
-
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-footer">
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-where"><i class="fas fa-map-marker-alt"></i> IT-suppoter</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-end-topic">
-                        <div class="main-list-menu-spam-rightcacspam-item-end-topic-content">Tìm sản phẩm tương tự </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="main-list-menu-spam-rightcacspam-item">
-                   
-                    <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
-                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
-                    </div>
-                    <div class="like-content">
-                      <div class="like-content-content">
-                        Quan Tâm
-                      </div>
-                    </div>
-                    <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
-                      <img src="./assets/img/sale-spam.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
-                      <div class="main-list-menu-spam-right-content">Điện thoại Xiaomi Redmi K40 Pro 5G 8/128GB - Hàng nhập khẩu</div>
-                      <div class="main-list-menu-spam-rightcacspam-item-price">
-                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">15.000.000đ</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">10.000.000đ</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-tym">
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
-                          <i class="fas fa-heart"></i>
-                        </div>
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          
-                        </div>
-
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-footer">
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-where"><i class="fas fa-map-marker-alt"></i> IT-suppoter</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-end-topic">
-                        <div class="main-list-menu-spam-rightcacspam-item-end-topic-content">Tìm sản phẩm tương tự </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="main-list-menu-spam-rightcacspam-item">
-                   
-                    <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
-                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
-                    </div>
-                    <div class="like-content">
-                      <div class="like-content-content">
-                        Quan Tâm
-                      </div>
-                    </div>
-                    <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
-                      <img src="./assets/img/sale-spam.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
-                      <div class="main-list-menu-spam-right-content">Điện thoại Xiaomi Redmi K40 Pro 5G 8/128GB - Hàng nhập khẩu</div>
-                      <div class="main-list-menu-spam-rightcacspam-item-price">
-                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">15.000.000đ</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">10.000.000đ</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-tym">
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
-                          <i class="fas fa-heart"></i>
-                        </div>
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          
-                        </div>
-
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-footer">
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-where"><i class="fas fa-map-marker-alt"></i> IT-suppoter</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-end-topic">
-                        <div class="main-list-menu-spam-rightcacspam-item-end-topic-content">Tìm sản phẩm tương tự </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="main-list-menu-spam-rightcacspam-item">
-                   
-                    <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
-                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
-                    </div>
-                    <div class="like-content">
-                      <div class="like-content-content">
-                        Quan Tâm
-                      </div>
-                    </div>
-                    <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
-                      <img src="./assets/img/sale-spam.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
-                      <div class="main-list-menu-spam-right-content">Điện thoại Xiaomi Redmi K40 Pro 5G 8/128GB - Hàng nhập khẩu</div>
-                      <div class="main-list-menu-spam-rightcacspam-item-price">
-                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">15.000.000đ</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">10.000.000đ</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-tym">
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
-                          <i class="fas fa-heart"></i>
-                        </div>
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          
-                        </div>
-
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-footer">
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-where"><i class="fas fa-map-marker-alt"></i> IT-suppoter</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-end-topic">
-                        <div class="main-list-menu-spam-rightcacspam-item-end-topic-content">Tìm sản phẩm tương tự </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="main-list-menu-spam-rightcacspam-item">
-                   
-                    <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
-                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
-                    </div>
-                    <div class="like-content">
-                      <div class="like-content-content">
-                        Quan Tâm
-                      </div>
-                    </div>
-                    <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
-                      <img src="./assets/img/sale-spam.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
-                      <div class="main-list-menu-spam-right-content">Điện thoại Xiaomi Redmi K40 Pro 5G 8/128GB - Hàng nhập khẩu</div>
-                      <div class="main-list-menu-spam-rightcacspam-item-price">
-                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">15.000.000đ</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">10.000.000đ</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-tym">
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
-                          <i class="fas fa-heart"></i>
-                        </div>
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          
-                        </div>
-
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-footer">
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-where"><i class="fas fa-map-marker-alt"></i> IT-suppoter</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-end-topic">
-                        <div class="main-list-menu-spam-rightcacspam-item-end-topic-content">Tìm sản phẩm tương tự </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="main-list-menu-spam-rightcacspam-item">
-                   
-                    <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
-                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
-                    </div>
-                    <div class="like-content">
-                      <div class="like-content-content">
-                        Quan Tâm
-                      </div>
-                    </div>
-                    <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
-                      <img src="./assets/img/sale-spam.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
-                      <div class="main-list-menu-spam-right-content">Điện thoại Xiaomi Redmi K40 Pro 5G 8/128GB - Hàng nhập khẩu</div>
-                      <div class="main-list-menu-spam-rightcacspam-item-price">
-                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">15.000.000đ</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">10.000.000đ</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-tym">
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
-                          <i class="fas fa-heart"></i>
-                        </div>
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          
-                        </div>
-
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-footer">
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-where"><i class="fas fa-map-marker-alt"></i> IT-suppoter</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-end-topic">
-                        <div class="main-list-menu-spam-rightcacspam-item-end-topic-content">Tìm sản phẩm tương tự </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="main-list-menu-spam-rightcacspam-item">
-                   
-                    <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
-                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
-                    </div>
-                    <div class="like-content">
-                      <div class="like-content-content">
-                        Quan Tâm
-                      </div>
-                    </div>
-                    <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
-                      <img src="./assets/img/sale-spam.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
-                      <div class="main-list-menu-spam-right-content">Điện thoại Xiaomi Redmi K40 Pro 5G 8/128GB - Hàng nhập khẩu</div>
-                      <div class="main-list-menu-spam-rightcacspam-item-price">
-                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">15.000.000đ</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">10.000.000đ</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-tym">
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
-                          <i class="fas fa-heart"></i>
-                        </div>
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          
-                        </div>
-
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-footer">
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-where"><i class="fas fa-map-marker-alt"></i> IT-suppoter</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-end-topic">
-                        <div class="main-list-menu-spam-rightcacspam-item-end-topic-content">Tìm sản phẩm tương tự </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="main-list-menu-spam-rightcacspam-item">
-                   
-                    <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
-                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
-                    </div>
-                    <div class="like-content">
-                      <div class="like-content-content">
-                        Quan Tâm
-                      </div>
-                    </div>
-                    <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
-                      <img src="./assets/img/sale-spam.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
-                      <div class="main-list-menu-spam-right-content">Điện thoại Xiaomi Redmi K40 Pro 5G 8/128GB - Hàng nhập khẩu</div>
-                      <div class="main-list-menu-spam-rightcacspam-item-price">
-                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">15.000.000đ</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">10.000.000đ</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-tym">
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
-                          <i class="fas fa-heart"></i>
-                        </div>
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          
-                        </div>
-
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-footer">
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-where"><i class="fas fa-map-marker-alt"></i> IT-suppoter</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-end-topic">
-                        <div class="main-list-menu-spam-rightcacspam-item-end-topic-content">Tìm sản phẩm tương tự </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="main-list-menu-spam-rightcacspam-item">
-                   
-                    <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
-                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
-                    </div>
-                    <div class="like-content">
-                      <div class="like-content-content">
-                        Quan Tâm
-                      </div>
-                    </div>
-                    <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
-                      <img src="./assets/img/sale-spam.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
-                      <div class="main-list-menu-spam-right-content">Điện thoại Xiaomi Redmi K40 Pro 5G 8/128GB - Hàng nhập khẩu</div>
-                      <div class="main-list-menu-spam-rightcacspam-item-price">
-                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">15.000.000đ</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">10.000.000đ</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-tym">
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
-                          <i class="fas fa-heart"></i>
-                        </div>
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          
-                        </div>
-
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-footer">
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-where"><i class="fas fa-map-marker-alt"></i> IT-suppoter</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-end-topic">
-                        <div class="main-list-menu-spam-rightcacspam-item-end-topic-content">Tìm sản phẩm tương tự </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="main-list-menu-spam-rightcacspam-item">
-                   
-                    <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
-                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
-                    </div>
-                    <div class="like-content">
-                      <div class="like-content-content">
-                        Quan Tâm
-                      </div>
-                    </div>
-                    <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
-                      <img src="./assets/img/sale-spam.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
-                      <div class="main-list-menu-spam-right-content">Điện thoại Xiaomi Redmi K40 Pro 5G 8/128GB - Hàng nhập khẩu</div>
-                      <div class="main-list-menu-spam-rightcacspam-item-price">
-                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">15.000.000đ</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">10.000.000đ</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-tym">
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
-                          <i class="fas fa-heart"></i>
-                        </div>
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          
-                        </div>
-
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-footer">
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-where"><i class="fas fa-map-marker-alt"></i> IT-suppoter</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-end-topic">
-                        <div class="main-list-menu-spam-rightcacspam-item-end-topic-content">Tìm sản phẩm tương tự </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="main-list-menu-spam-rightcacspam-item">
-                   
-                    <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
-                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
-                    </div>
-                    <div class="like-content">
-                      <div class="like-content-content">
-                        Quan Tâm
-                      </div>
-                    </div>
-                    <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
-                      <img src="./assets/img/sale-spam.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
-                      <div class="main-list-menu-spam-right-content">Điện thoại Xiaomi Redmi K40 Pro 5G 8/128GB - Hàng nhập khẩu</div>
-                      <div class="main-list-menu-spam-rightcacspam-item-price">
-                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">15.000.000đ</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">10.000.000đ</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-tym">
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
-                          <i class="fas fa-heart"></i>
-                        </div>
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          
-                        </div>
-
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-footer">
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-where"><i class="fas fa-map-marker-alt"></i> IT-suppoter</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-end-topic">
-                        <div class="main-list-menu-spam-rightcacspam-item-end-topic-content">Tìm sản phẩm tương tự </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="main-list-menu-spam-rightcacspam-item">
-                   
-                    <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
-                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
-                    </div>
-                    <div class="like-content">
-                      <div class="like-content-content">
-                        Quan Tâm
-                      </div>
-                    </div>
-                    <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
-                      <img src="./assets/img/sale-spam.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
-                      <div class="main-list-menu-spam-right-content">Điện thoại Xiaomi Redmi K40 Pro 5G 8/128GB - Hàng nhập khẩu</div>
-                      <div class="main-list-menu-spam-rightcacspam-item-price">
-                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">15.000.000đ</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">10.000.000đ</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-tym">
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
-                          <i class="fas fa-heart"></i>
-                        </div>
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          
-                        </div>
-
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-footer">
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-where"><i class="fas fa-map-marker-alt"></i> IT-suppoter</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-end-topic">
-                        <div class="main-list-menu-spam-rightcacspam-item-end-topic-content">Tìm sản phẩm tương tự </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="main-list-menu-spam-rightcacspam-item">
-                   
-                    <div class="main-list-menu-spam-rightcacspam-item-sale-topic">
-                      <p class="main-list-menu-spam-rightcacspam-item-sale-topic-content">sale 30%</p>
-                    </div>
-                    <div class="like-content">
-                      <div class="like-content-content">
-                        Quan Tâm
-                      </div>
-                    </div>
-                    <a href="#" class="main-list-menu-spam-rightcacspam-item-link">
-                      <img src="./assets/img/sale-spam.jpg" alt="" class="main-list-menu-spam-rightcacspam-item-img">
-                      <div class="main-list-menu-spam-right-content">Điện thoại Xiaomi Redmi K40 Pro 5G 8/128GB - Hàng nhập khẩu</div>
-                      <div class="main-list-menu-spam-rightcacspam-item-price">
-                        <div class="main-list-menu-spam-rightcacspam-item-price-oldprice">15.000.000đ</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-price-newprice">10.000.000đ</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-tym">
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-icon">
-                          <i class="fas fa-heart"></i>
-                        </div>
-                        <div class="main-list-menu-spam-rightcacspam-item-tym-star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          
-                        </div>
-
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-footer">
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-sold">500k đã bán</div>
-                        <div class="main-list-menu-spam-rightcacspam-item-footer-where"><i class="fas fa-map-marker-alt"></i> IT-suppoter</div>
-                      </div>
-                      <div class="main-list-menu-spam-rightcacspam-item-end-topic">
-                        <div class="main-list-menu-spam-rightcacspam-item-end-topic-content">Tìm sản phẩm tương tự </div>
-                      </div>
-                    </a>
-                  </li>
-                  
-
-                  
-                  
-
-                  </ul>
-                  <div class="clear"></div>
-                  <div class="footer-the-right-spam">
-                    <div class="pagination">
-                      <a href="#">&laquo;</a>
-                      <a class="active" href="#">1</a>
-                      <a  href="#">2</a>
-                      <a href="#">3</a>
-                      <a href="#">4</a>
-                      <a href="#">5</a>
-                      <a href="#">6</a>
-                      <a href="#">7</a>
-                      <a href="#">8</a>
-                      <a href="#">9</a>
-
-                      
-                      <a href="#">&raquo;</a>
-                    </div>
-                  </div>
-                </div>
+            </div>
+            </div>
             
           </div>
+          <div class="main2-more">
+            <a href="all-spam.html" class="main2-more-link" target="_self">SEE MORE</a>
           </div>
         </div>
+            <script>
+            filterSelection("all")
+            function filterSelection(c) {
+              var x, i;
+              x = document.getElementsByClassName("filterDiv");
+              if (c == "all") c = "";
+              for (i = 0; i < x.length; i++) {
+                w3RemoveClass(x[i], "show");
+                if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+              }
+            }
+            
+            function w3AddClass(element, name) {
+              var i, arr1, arr2;
+              arr1 = element.className.split(" ");
+              arr2 = name.split(" ");
+              for (i = 0; i < arr2.length; i++) {
+                if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+              }
+            }
+            
+            function w3RemoveClass(element, name) {
+              var i, arr1, arr2;
+              arr1 = element.className.split(" ");
+              arr2 = name.split(" ");
+              for (i = 0; i < arr2.length; i++) {
+                while (arr1.indexOf(arr2[i]) > -1) {
+                  arr1.splice(arr1.indexOf(arr2[i]), 1);     
+                }
+              }
+              element.className = arr1.join(" ");
+            }
+            
+            // Add active class to the current button (highlight it)
+            var btnContainer = document.getElementById("myBtnContainer");
+            var btns = btnContainer.getElementsByClassName("btn");
+            for (var i = 0; i < btns.length; i++) {
+              btns[i].addEventListener("click", function(){
+                var current = document.getElementsByClassName("active2");
+                current[0].className = current[0].className.replace(" active2", "");
+                this.className += " active2";
+              });
+            }
+            </script>
+           
       </div>
+      <div class="clear"></div>
         <footer class="footer">
           <div class="grid4">
             <div class="footer-montage">
@@ -2118,7 +1275,7 @@
           
           </div>
          
-        
+        <div class="clear"></div>
         </footer>  
          <div class="clear"><div class="end">
             Code by Quân
