@@ -1,4 +1,4 @@
-var tetAmLich = new Date("Aug 18, 2021 0:0:0").getTime();
+var tetAmLich = new Date("Aug 19, 2021 0:0:0").getTime();
  
  function newYear() {
     
