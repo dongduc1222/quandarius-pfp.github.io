@@ -4,11 +4,11 @@
     justify-content: center;
 }
 .header-menu-list-item{
-    
-   padding: 20px 35px;
+    padding: 10px 10px;
     display: block;
     border-radius: 10px;
     color: #fff;
+    font-size: 20px;
     
 }
 .header-menu-list-item:hover{
