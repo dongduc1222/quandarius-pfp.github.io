@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     user-select: none;scroll-behavior: smooth;
+   
 }
 
 body{
@@ -33,4 +34,7 @@ ul,li{
 img{
     max-width: 100%;
     display: block;
+}
+p,h1{
+    z-index: 1 !important;
 }

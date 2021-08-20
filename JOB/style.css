@@ -1,7 +1,7 @@
 
 /* header */
 .header-content{
-    width: 80%;
+    width: 1190px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -31,7 +31,7 @@
     z-index: 1;
 }
 .menu{
-    width: 80%;
+    width: 1093px;
     height: 104px;
     align-items: center;
     margin:  0 auto;
@@ -50,6 +50,8 @@
 }
 .main{
     background: #152b54;
+    width: 100%;
+    
 }
 .menu-content{
     width: 760px;
@@ -64,12 +66,13 @@
 }
 .main-banner{
     width: 100%;
+    padding-top: 70px;
 }
 .main-banner img{
     width: 100%;
 }
 .main-use-banner{
-    width: 80%;
+    width: 1265px;
     height: 273px;
     display: flex;
     justify-content: space-between;
@@ -270,9 +273,9 @@
 }
 .feedback-content-item-user{
     display: flex;
-    margin-top: 50px;
+    margin-top: 0px;
     position: absolute;
-    margin-left: 150px;
+    margin-left: 70px;
 }
 .feedback-content-item-user-content{
     align-items: center;
