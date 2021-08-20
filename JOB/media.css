@@ -36,11 +36,39 @@
     }
     .main-use-banner-item{
         margin-top: 50px;
-        margin-left: 150px;
+        margin-left: 30%;
         
     }
     .mySidenav{
         width: 375px;
+    }
+    .main-item-content {
+        width: 100% !important;
+        max-width: 650px !important;
+        margin-left:  -90px;
+    }
+    .main-item-list-item-title{
+        text-align: center;
+        width: 100%;
+    }
+    .news-content{
+        width: 100%;
+        display: block;
+
+  
+    }
+    .feedback-content{
+        width: 100%;
+        display: block;
+    }
+    .feedback2{
+        display: none;
+    }
+    .contact-content2{
+        display: none;
+    }
+    .contact-content3{
+        display: none;
     }
     
 }
