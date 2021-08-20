@@ -1,7 +1,7 @@
 
 /* header */
 .header-content{
-    width: 1190px;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -31,7 +31,7 @@
     z-index: 1;
 }
 .menu{
-    width: 1093px;
+    width: 80%;
     height: 104px;
     align-items: center;
     margin:  0 auto;
@@ -69,7 +69,7 @@
     width: 100%;
 }
 .main-use-banner{
-    width: 1265px;
+    width: 80%;
     height: 273px;
     display: flex;
     justify-content: space-between;
@@ -270,9 +270,9 @@
 }
 .feedback-content-item-user{
     display: flex;
-    margin-top: 40px;
+    margin-top: 50px;
     position: absolute;
-    margin-left: 140px;
+    margin-left: 150px;
 }
 .feedback-content-item-user-content{
     align-items: center;
