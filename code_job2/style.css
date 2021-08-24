@@ -503,6 +503,7 @@ input[type=text],
   .main-band2-content-item{
       width: 170px;
       display: block;
+      border:1px solid #fff;
       
       
   }
@@ -644,6 +645,11 @@ input[type=text],
 .new-content-item{
     width: 272px;
     padding: 10px;
+    border:1px solid #fff;
+    cursor: pointer;
+}
+.new-content-item:hover{
+    border:1px solid #ccc;
 }
 .new-content-item-content-title{
     font-size: 17px;
