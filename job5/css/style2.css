@@ -678,7 +678,7 @@
     color: #000;
 }
 .list1-content{
-    width: 1250px !important;
+    width: 1250px;
     margin:  0 auto;
 }
 .list1-content{
@@ -1367,4 +1367,20 @@
 }
 .header-media{
     display: none;
+}
+.item-profile-title a{
+    
+    text-decoration: none;
+   
+    color: #000;
+}
+.item-profile-title a:hover{
+    color: #ff384b;
+    text-decoration: none;
+}
+.item-profile-title{
+    cursor: pointer;
+}
+.item-profile-title:hover{
+    color: #ff384b;
 }
