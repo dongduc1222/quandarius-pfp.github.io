@@ -1,0 +1,118 @@
+@media only screen and (max-width:650px){
+ .list1-content{
+     width: 100% !important;
+ }
+ .title-media{
+     display: none;
+ }
+ .header-top-right-1{
+     margin-left: 0;
+ }
+ .header-top-left{
+     width: 100%;
+     padding: 0 10px;
+ }
+ .header-top-right{
+     padding: 0 10px;
+ }
+ .header-media{
+     display: flex;
+     justify-content: space-between;
+     
+ }
+ .header-media-item1 i{
+     color: #fff;
+     font-size: 20px;
+ }
+ .header-media-item1{
+     margin-top: 10px;
+     padding: 0 20px;
+ }
+ .header-media-item2{
+     margin-left: 40px;
+ }
+ .media-icon{
+     margin-top: 40px !important;
+     margin-left: 40px;
+ }
+ .header-center-right-item-dropdown2{
+     margin-left: -330px;
+     margin-top: 40px;
+     
+ }
+ .header-center-right-item-dropdown2::before{
+    content: "";
+    border-width:20px 20px;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+    position: absolute;
+    right: 0px;
+    top:-29px;
+}
+.note-item2{
+    margin-top: 0px;
+}
+.header-center-left{
+    display: none;
+}
+.header-center-right{
+    display: none;
+}
+.header-center-center-select{
+    display: none;
+}
+.header-center-center-input input{
+    width: 320px !important;
+}
+.header-center-center{
+    width: 100% !important;
+}
+.header-center-center-input-search{
+    margin-left: 270px;
+}
+.header-center-center-bottom-item{
+    font-size: 12px;
+}
+.list-menu{
+    display: none;
+}
+.footer-content1{
+    width: 100% !important;
+    display: block;
+
+}
+.footer-content1-item{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+.video-contents{
+    display: block;
+}
+.video-content{
+    width: 100% !important; 
+}
+.banner-qc1{
+    width: 100%  !important;
+}
+.media-footer{
+    display: none;
+}
+.modal-content{
+    width: 100% !important;
+}
+
+.video-content-item iframe{
+    width: 100% !important
+    
+}
+.title2{
+    display: none;
+}
+.video-content-title{
+    padding: 10px;
+}
+.product_bycate_hot{
+    padding: 10px;
+}
+}
