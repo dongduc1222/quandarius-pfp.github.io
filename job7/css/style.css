@@ -299,6 +299,7 @@ color: rgb(189, 20, 12);
     font-weight: 600;
     text-align: center;
     margin-top: 10px;
+    width: 95%;
 }
 .main-item-content-list-item-star{
     display: flex;
@@ -573,4 +574,114 @@ color: rgb(189, 20, 12);
 }
 .main-item-content2-media{
     display: none;
+}
+
+.dropdown-left-content{
+    width:0px;
+    background-color: #fff;
+    position:fixed;
+    z-index: 10000000000;
+    height: 100%;
+    top:0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    
+}
+.lopphu{
+    width: 0;
+    height: 100%;
+    top:0;
+    position: fixed;
+    background-color: rgba(0,0,0,0.4);
+   z-index: 10;
+}
+.dropdown-left-content-item2{
+   padding-top: 700px;
+   
+}
+.dropdown-left-content-close{
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+.dropdown-left-content-img{
+   height: 90px;
+    background-color: #bd140c;
+    align-items: center;
+    padding-top: 20px;
+}
+.dropdown-left-content-img img{
+    width: 163px ;
+    height: 45px;
+    margin: 0px  auto;
+    
+    
+}
+.dropdown-left-content-login{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1px;
+}
+.dropdown-left-content-login-item{
+    width: 149.5px;
+    height: 43.2px;
+    text-align: center;
+    background-color: #bd140c;
+    padding-top: 10px;
+    color: #fff;
+    font-size: 14px;
+}
+.dropdown-left-content-item1{
+    font-weight: 600;
+    font-size: 14px;
+    
+    height: 45px;
+    
+    width: 288px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.dropdown-left-content-item1-1{
+    display: flex;
+    height: 40px;
+    align-items: center;
+     width: 263px;
+    border-bottom: 1px solid #ccc;
+    margin: 0 auto;
+    text-transform: none;
+    cursor: pointer;
+    
+
+}
+.dropdown-left-content-item1-1 img{
+    width: 20px;
+    height: 20px;
+}
+.dropdown-left-content-item1-1 p{
+    font-size: 14px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.dropdown-left-content-item1-1 i{
+
+    position: absolute;
+    margin-left: 250px;
+}
+
+.dropdown-left-content-item21{
+    display: flex;
+   
+    height: 45px;
+    align-items: center;
+    padding: 0 20px;
+}
+.dropdown-left-content-item21 a{
+    margin-left: 5px;
+}
+.star-yellow{
+    color: yellow !important;
+}
+.list-item-main{
+    margin-right: -6px !important;
 }

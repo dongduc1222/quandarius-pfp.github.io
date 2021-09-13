@@ -120,11 +120,9 @@
 .main-item-content-list-item-star{
     margin-left: 0 !important;
 }
-.main-item-content2-media{
-    display: block !important;
-}
+
 .main-item-content2{
-    display: none !important;
+    /* display: none !important; */
 }
 .item-choose1{
     width: 177px !important;
@@ -215,5 +213,23 @@
 }
 .main-sp-2-right-content{
     width: 100%;
+}
+.main-item-content-list-item-star-item{
+    padding: 3px;
+}
+.main-item-content-list-item-star-text{
+    margin-top: 3px;
+
+}
+.KN-content-item{
+    width: 181px !important;
+    margin-left:-10px;
+}
+.KN-content-item img{
+    width: 181px !important;
+    height: 171px !important;
+}
+.KN-content-item1{
+    margin-left: 0px!important;
 }
 }
